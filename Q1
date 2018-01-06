@@ -1,0 +1,9 @@
+7) Отработает ли следующий код, если да то что произойдет в результате его выполнения, если нет то укажите ошибки: 
+#include <iostream> 
+using namespace std; 
+int main() { 
+int i = 0, a = 4;
+while (i<a) cout << a - i; 
+i++; 
+return 0; 
+}
